@@ -322,10 +322,6 @@ footer{
     img{
         padding: 1em 0;
     }
-    #restaurant img{
-        height: 74vw;
-        object-fit: cover;
-    }
     .subTitle{
         font-size: 4em;
     }
