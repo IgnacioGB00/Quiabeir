@@ -5,6 +5,7 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
     
 }
 body{
@@ -27,7 +28,7 @@ header{
     justify-content: space-between;
     padding: 1.5em 1em;
     position: relative;
-    overflow-x: hidden;
+    
 }
 #logo{
     width: 10em;
