@@ -25,6 +25,7 @@ header{
     align-items: start;
     justify-content: space-between;
     padding: 1.5em 1em;
+    po
 }
 #logo{
     width: 10em;
@@ -62,7 +63,7 @@ h1{
     display: none;
 }
 #burger{
-    position: fixed;
+    position: absolute;
     top: 0;
     right:-100%;
     width: 80%;
