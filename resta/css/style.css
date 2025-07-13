@@ -114,10 +114,10 @@ section{
         clip-path: inset(0 0 0 0);
       }
 }
-#restaurant img, #restaurant p, iframe, #conteiner{
-    animation: appear 5ms linear;
+#restaurant img, #restaurant p, iframe, #conteiner {
+    animation: appear 1s linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 30%;
 }
 .TitleGreen{
     color: #76FF03;
@@ -186,11 +186,10 @@ img{
 .card img, .cardTwo img{
     width: 360px;
 }
- .card img, .backroundWitheTwo, .TitleGreen{
+.card img, .backroundWitheTwo, .TitleGreen {
     animation: moveImgOne 5s linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-
+    animation-range: entry 0% cover 30%;
 }
 @keyframes moveImgOne{
     from {
@@ -203,11 +202,10 @@ img{
     }
 }
 
-.backroundWithe, .cardTwo img{
+.backroundWithe, .cardTwo img {
     animation: moveOne 5s linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-
+    animation-range: entry 0% cover 20%;
 }
 
 @keyframes moveOne{
@@ -498,5 +496,21 @@ footer{
         font-size: 25px;
     }
 
-   
+   .card img, .backroundWitheTwo, .TitleGreen {
+        animation: moveImgOne 5s linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+    .backroundWithe, .cardTwo img {
+        animation: moveOne 5s linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+    #restaurant img, #restaurant p, iframe, #conteiner {
+        animation: appear 1s linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
 }
