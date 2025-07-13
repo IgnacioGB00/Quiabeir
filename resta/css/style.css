@@ -467,8 +467,9 @@ footer{
     }
     #burgerThree ,#burger{
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
+        height: 20%;
 
     }
     #burger{
