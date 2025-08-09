@@ -477,6 +477,7 @@ footer{
         background-color: transparent;
         box-shadow: none;
         justify-self: end;
+        width: 100%;
     }
     #burger #navLink{
         display: none;
@@ -515,3 +516,4 @@ footer{
         animation-range: entry 0% cover 40%;
     }
 }
+
